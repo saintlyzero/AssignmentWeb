@@ -6,9 +6,12 @@ footer{bottom:0;font-size:1.5rem;color:#aaa}
 .homebg{background:url(../Images/bg-14.jpg) no-repeat;width:100%;height:100%;background-size:cover}
 .headertxt{font-size:5rem;color:#444;font-weight:300}
 .titletxt{font-size:2.5rem;color:#444;font-weight:300}
+.bldtitletxt{font-size:2.5rem;color:rgb(15, 5, 5);font-weight:300}
+.contenttxt{font-size:1.2rem;color:rgb(15, 5, 5);font-weight:300}
 .btn-std{padding:10px 30px 6px;font-size:1.5rem;font-weight:400;text-transform:uppercase;box-shadow:0 15px 15px -5px #bbb;vertical-align:super}
 .btn-green{background-color:#27b585;color:#fff}
 .btn-white{background-color:#fff;color:#000}
+.btn-dept{padding:10px 30px 6px;font-size:1.2rem;font-weight:400;text-transform:uppercase;box-shadow:0 15px 15px -5px #bbb;vertical-align:super}
 header{box-shadow:0 15px 15px -5px #bbb;background:#fff;z-index:1000}
 .nav-link img{max-width:200px}
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before{background-color:#28b585}
