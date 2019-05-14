@@ -19,3 +19,9 @@ header{box-shadow:0 15px 15px -5px #bbb;background:#fff;z-index:1000}
 .textfeild{border:0;border-bottom:1px solid #000;outline:0;background:0 0}
 .nav-tabs .nav-link{opacity:.3;border:0}
 .nav-tabs .nav-link.active{opacity:1}
+.star-rating {
+    line-height:32px;
+    font-size:1.25em;
+  }
+  
+.star-rating .fa-star{color: yellow;}
