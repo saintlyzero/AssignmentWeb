@@ -1,618 +1,588 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
-
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="CSS/style.css">
-
-
-    
-  
-    <script>
-    
-            $(function () {
-                $('[data-toggle="tooltip"]').tooltip()
-            })</script>
-
-    <title>Document</title>
-
-
-   
-</head>
-
-<body class="homebg">
-    <header class="header position-absolute w-100">
-        <nav class="navbar navbar-light px-5">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+      <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="CSS/style.css">
+      <script>
+         $(function () {
+             $('[data-toggle="tooltip"]').tooltip()
+         })
+      </script>
+      <title>Document</title>
+   </head>
+   <body class="homebg">
+      <header class="header position-absolute w-100">
+         <nav class="navbar navbar-light px-5">
             <a class="navbar-brand" href="#">
-                <img src="Images/logo.png" width="250" class="img-fluid" alt="">
+            <img src="Images/logo.png" width="250" class="img-fluid" alt="">
             </a>
-        </nav>
-    </header>
-    <section class="h-100 p-5 mt-5">
-        <h3 class="pt-5 bldtitletxt">Department: Facilities</h3>
-        <p class = "contenttxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat urna nec quam convallis, ut mollis 
+         </nav>
+      </header>
+      <section class="h-100 p-5 mt-5">
+         <h3 class="pt-5 bldtitletxt">Department: Facilities</h3>
+         <p class = "contenttxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat urna nec quam convallis, ut mollis 
             <br>dui vulputate. Sed id turpis vitae locus porta aliquet lobortis quis nisi. Ut eget mollis olio.
-
-        </p>
-        <div class="float-right mt-md-n5">
+         </p>
+         <div class="float-right mt-md-n5">
             <button class=" btn  btn-dept btn-green" onclick="window.location.href='dept.html'">Move on to the next department</button>
-        </div>
-        <div class="pt-5"> 
-            <div> <b>Choose your mascot for this department</b> (hover over each mascot to know it's meaning)</div>
-        <div class="pt-5"></div>
-
-        <div class="border box p-2">
-
+         </div>
+         <div class="pt-5">
+         <div> <b>Choose your mascot for this department</b> (hover over each mascot to know it's meaning)</div>
+         <div class="pt-5"></div>
+         <div class="border box p-2">
             <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
-                <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="  
-                My work/the attributes initiative is not having direction and needs greater mentorship or leadership 
-                ">
-                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#perl" role="tab"
-                        aria-controls="home" aria-selected="true">
-                        <img src="Images/icon1.png" alt="oyster image">
-                        <div class="p-2">
-                            World is my <B>Oyster</B>
-                        </div>
-                    </a>
-                </li>
-                <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="My work/the attributes initiative is not having direction and needs greater mentorship or leadership ">
-                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#cat" role="tab"
-                        aria-controls="profile" aria-selected="false"><img src="Images/cat.jpg" alt="cat image">
-                        <div class="p-2">
-                                <B>Cat's</B> Meow
-                        </div>
-                    </a>
-                </li>
-                <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="
-                My work/the attributes initiative is not having direction and needs greater mentorship or leadership ">
-                    <a class="nav-link" id="messages-tab" data-toggle="tab" href="#whale" role="tab"
-                        aria-controls="messages" aria-selected="false"><img src="Images/whale.png" alt="whale image">
-                        <div class="p-2">
-                                <B>Whale</B> of a time
-                        </div>
-                    </a>
-                </li>
-                <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="
-                My work/the attributes initiative is not having direction and needs greater mentorship or leadership ">
-                    <a class="nav-link" id="messages1-tab" data-toggle="tab" href="#elephant" role="tab"
-                        aria-controls="messages" aria-selected="false"><img src="Images/elephant.png" alt="elephant image">
-                        <div class="p-2">
-                                <B>Elephant</B> in the room
-                        </div>
-                    </a>
-                </li>
-                <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="
-                My work/the attributes initiative is not having direction and needs greater mentorship or leadership ">
-                    <a class="nav-link" id="messages-t2ab" data-toggle="tab" href="#deadfish" role="tab"
-                        aria-controls="messages" aria-selected="false"><img src="Images/fish.png" alt="dead fish image">
-                        <div class="p-2">
-                              Dead <B>Fish</B>
-                        </div>
-                    </a>
-                </li>
-                <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="
-                My work/the attributes initiative is not having direction and needs greater mentorship or leadership ">
-                    <a class="nav-link" id="settings-tab" data-toggle="tab" href="#goose" role="tab"
-                        aria-controls="settings" aria-selected="false"><img src="Images/goose.png" alt="goose image">
-                        <div class="p-2">
-                                Wild <B>Goose</B> Chase
-                        </div>
-                    </a>
-                </li>
+               <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="  
+                  My work/the attributes initiative is not having direction and needs greater mentorship or leadership 
+                  ">
+                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#perl" role="tab"
+                     aria-controls="home" aria-selected="true">
+                     <img src="Images/icon1.png" alt="oyster image">
+                     <div class="p-2">
+                        World is my <B>Oyster</B>
+                     </div>
+                  </a>
+               </li>
+               <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="My work/the attributes initiative is not having direction and needs greater mentorship or leadership ">
+                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#cat" role="tab"
+                     aria-controls="profile" aria-selected="false">
+                     <img src="Images/cat.jpg" alt="cat image">
+                     <div class="p-2">
+                        <B>Cat's</B> Meow
+                     </div>
+                  </a>
+               </li>
+               <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="
+                  My work/the attributes initiative is not having direction and needs greater mentorship or leadership ">
+                  <a class="nav-link" id="messages-tab" data-toggle="tab" href="#whale" role="tab"
+                     aria-controls="messages" aria-selected="false">
+                     <img src="Images/whale.png" alt="whale image">
+                     <div class="p-2">
+                        <B>Whale</B> of a time
+                     </div>
+                  </a>
+               </li>
+               <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="
+                  My work/the attributes initiative is not having direction and needs greater mentorship or leadership ">
+                  <a class="nav-link" id="messages1-tab" data-toggle="tab" href="#elephant" role="tab"
+                     aria-controls="messages" aria-selected="false">
+                     <img src="Images/elephant.png" alt="elephant image">
+                     <div class="p-2">
+                        <B>Elephant</B> in the room
+                     </div>
+                  </a>
+               </li>
+               <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="
+                  My work/the attributes initiative is not having direction and needs greater mentorship or leadership ">
+                  <a class="nav-link" id="messages-t2ab" data-toggle="tab" href="#deadfish" role="tab"
+                     aria-controls="messages" aria-selected="false">
+                     <img src="Images/fish.png" alt="dead fish image">
+                     <div class="p-2">
+                        Dead <B>Fish</B>
+                     </div>
+                  </a>
+               </li>
+               <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="
+                  My work/the attributes initiative is not having direction and needs greater mentorship or leadership ">
+                  <a class="nav-link" id="settings-tab" data-toggle="tab" href="#goose" role="tab"
+                     aria-controls="settings" aria-selected="false">
+                     <img src="Images/goose.png" alt="goose image">
+                     <div class="p-2">
+                        Wild <B>Goose</B> Chase
+                     </div>
+                  </a>
+               </li>
             </ul>
-
             <!-- Tab panes -->
             <div class="tab-content">
-                <div class="tab-pane active" id="perl" role="tabpanel" aria-labelledby="perl">
-                    <div class="py-3">
-                        <div class="row">
-                            <div class="col-md-4">
-                                  <div class="p-2">
-                                      <B> Overall Rating for Facilities</B> (1-lowest, 5-highest) 
-                                   </div>
-                                <div class="py-2">
-                                    <!-- code of star -->
-                                    <div class="star-rating">
-                                            <span class="fa fa-star-o" data-rating="1"></span>
-                                            <span class="fa fa-star-o" data-rating="2"></span>
-                                            <span class="fa fa-star-o" data-rating="3"></span>
-                                            <span class="fa fa-star-o" data-rating="4"></span>
-                                            <span class="fa fa-star-o" data-rating="5"></span>
-                                            <input type="hidden" name="rating1" class="rating-value" value="1">
-                                          </div>
-                                   
-                                 
-                                </div>
-                                <div class="pt-3">
-                                        <div class="p-2">
-                                                <B> Share your reasons for selecting the mascot</B> 
-                                             </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                        <label class="custom-control-label" for="customCheck1">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck2">
-                                        <label class="custom-control-label" for="customCheck2">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck3">
-                                        <label class="custom-control-label" for="customCheck3">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck4">
-                                        <label class="custom-control-label" for="customCheck4">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck5">
-                                        <label class="custom-control-label" for="customCheck5">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col-md-4">
-                                <strong>
-                                    Any more reasons?
-                                </strong>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <strong>
-                                    Suggestions
-                                </strong>
-                                <div class="py-2">
-                                    <textarea name="" id="" cols="20" rows="8" class="w-100"></textarea>
-                                </div>
-                            </div>
+               <div class="tab-pane active" id="perl" role="tabpanel" aria-labelledby="perl">
+                  <div class="py-3">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="p-2">
+                              <B> Overall Rating for Facilities</B> (1-lowest, 5-highest) 
+                           </div>
+                           <div class="py-2">
+                              <!-- code of star -->
+                              <div class="star-rating">
+                                 <span class="fa fa-star-o" data-rating="1"></span>
+                                 <span class="fa fa-star-o" data-rating="2"></span>
+                                 <span class="fa fa-star-o" data-rating="3"></span>
+                                 <span class="fa fa-star-o" data-rating="4"></span>
+                                 <span class="fa fa-star-o" data-rating="5"></span>
+                                 <input type="hidden" name="rating1" class="rating-value" value="1">
+                              </div>
+                           </div>
+                           <div class="pt-3">
+                              <div class="p-2">
+                                 <B> Share your reasons for selecting the mascot</B> 
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                 <label class="custom-control-label" for="customCheck1">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                 <label class="custom-control-label" for="customCheck2">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                 <label class="custom-control-label" for="customCheck3">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                 <label class="custom-control-label" for="customCheck4">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck5">
+                                 <label class="custom-control-label" for="customCheck5">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                           </div>
                         </div>
-                    </div>
-
-
-                </div>
-                <div class="tab-pane" id="cat" role="tabpanel" aria-labelledby="whale">
-                    <div class="py-3">
-                        <div class="row">
-                            <div class="col-md-4">
-                                    <div class="p-2">
-                                            <B> Overall Rating for Facilities</B> (1-lowest, 5-highest) 
-                                         </div>
-                                <div class="py-2">
-                                    <!-- code of star -->
-                                    <div class="star-rating">
-                                            <span class="fa fa-star-o" data-rating="6"></span>
-                                            <span class="fa fa-star-o" data-rating="7"></span>
-                                            <span class="fa fa-star-o" data-rating="8"></span>
-                                            <span class="fa fa-star-o" data-rating="9"></span>
-                                            <span class="fa fa-star-o" data-rating="10"></span>
-                                            <input type="hidden" name="rating2" class="rating-value" value="3">
-                                          </div>
-                                    
-                                </div>
-                                <div class="pt-3">
-                                        <B> Share your reasons for selecting the mascot</B> 
-
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck6">
-                                        <label class="custom-control-label" for="customCheck6">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck7">
-                                        <label class="custom-control-label" for="customCheck7">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck8">
-                                        <label class="custom-control-label" for="customCheck8">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck9">
-                                        <label class="custom-control-label" for="customCheck9">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck10">
-                                        <label class="custom-control-label" for="customCheck10">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col-md-4">
-                                <strong>
-                                        Any more reasons?
-
-                                </strong>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <strong>
-                                        Suggestions
-                                </strong>
-                                <div class="py-2">
-                                    <textarea name="" id="" cols="20" rows="8" class="w-100"></textarea>
-                                </div>
-                            </div>
+                        <div class="col-md-4">
+                           <strong>
+                           Any more reasons?
+                           </strong>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
                         </div>
-                    </div>
-                </div>
-                <div class="tab-pane" id="whale" role="tabpanel" aria-labelledby="messages-tab">
-                    <div class="py-3">
-                        <div class="row">
-                            <div class="col-md-4">
-                                    <div class="p-2">
-                                            <B> Overall Rating for Facilities</B> (1-lowest, 5-highest) 
-                                        </div>
-                                        
-                                <div class="py-2">
-                                    <!-- code of star -->
-                                    <div class="star-rating">
-                                            <span class="fa fa-star-o" data-rating="11"></span>
-                                            <span class="fa fa-star-o" data-rating="12"></span>
-                                            <span class="fa fa-star-o" data-rating="13"></span>
-                                            <span class="fa fa-star-o" data-rating="14"></span>
-                                            <span class="fa fa-star-o" data-rating="15"></span>
-                                            <input type="hidden" name="rating3" class="rating-value" value="4.1">
-                                          </div>
-                                </div>
-                                <div class="pt-3">
-                                        <B> Share your reasons for selecting the mascot</B> 
-                                        <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck11">
-                                        <label class="custom-control-label" for="customCheck11">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck12">
-                                        <label class="custom-control-label" for="customCheck12">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck13">
-                                        <label class="custom-control-label" for="customCheck13">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck14">
-                                        <label class="custom-control-label" for="customCheck14">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck15">
-                                        <label class="custom-control-label" for="customCheck15">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col-md-4">
-                                <strong>
-                                        Any more reasons?
-                                </strong>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <strong>
-                                        Suggestions
-                                </strong>
-                                <div class="py-2">
-                                    <textarea name="" id="" cols="20" rows="8" class="w-100"></textarea>
-                                </div>
-                            </div>
+                        <div class="col-md-4">
+                           <strong>
+                           Suggestions
+                           </strong>
+                           <div class="py-2">
+                              <textarea name="" id="" cols="20" rows="8" class="w-100"></textarea>
+                           </div>
                         </div>
-                    </div>
-                </div>
-                <div class="tab-pane" id="elephant" role="tabpanel" aria-labelledby="settings-tab">
-                    <div class="py-3">
-                        <div class="row">
-                            <div class="col-md-4">
-                                    <div class="p-2">
-                                            <B> Overall Rating for Facilities</B> (1-lowest, 5-highest) 
-                                        </div>
-                                <div class="py-2">
-                                    <!-- code of star -->
-                                    <div class="star-rating">
-                                            <span class="fa fa-star-o" data-rating="16"></span>
-                                            <span class="fa fa-star-o" data-rating="17"></span>
-                                            <span class="fa fa-star-o" data-rating="18"></span>
-                                            <span class="fa fa-star-o" data-rating="19"></span>
-                                            <span class="fa fa-star-o" data-rating="20"></span>
-                                            <input type="hidden" name="rating4" class="rating-value" value="4.1">
-                                          </div>
-                                </div>
-                                <div class="pt-3">
-                                        <B> Share your reasons for selecting the mascot</B> 
-                                        <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck16">
-                                        <label class="custom-control-label" for="customCheck16">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck17">
-                                        <label class="custom-control-label" for="customCheck17">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck18">
-                                        <label class="custom-control-label" for="customCheck18">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck19">
-                                        <label class="custom-control-label" for="customCheck19">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck20">
-                                        <label class="custom-control-label" for="customCheck20">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col-md-4">
-                                <strong>
-                                        Any more reasons?
-                                </strong>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <strong>
-                                        Suggestions
-                                </strong>
-                                <div class="py-2">
-                                    <textarea name="" id="" cols="20" rows="8" class="w-100"></textarea>
-                                </div>
-                            </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="tab-pane" id="cat" role="tabpanel" aria-labelledby="whale">
+                  <div class="py-3">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="p-2">
+                              <B> Overall Rating for Facilities</B> (1-lowest, 5-highest) 
+                           </div>
+                           <div class="py-2">
+                              <!-- code of star -->
+                              <div class="star-rating">
+                                 <span class="fa fa-star-o" data-rating="6"></span>
+                                 <span class="fa fa-star-o" data-rating="7"></span>
+                                 <span class="fa fa-star-o" data-rating="8"></span>
+                                 <span class="fa fa-star-o" data-rating="9"></span>
+                                 <span class="fa fa-star-o" data-rating="10"></span>
+                                 <input type="hidden" name="rating2" class="rating-value" value="3">
+                              </div>
+                           </div>
+                           <div class="pt-3">
+                              <B> Share your reasons for selecting the mascot</B> 
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck6">
+                                 <label class="custom-control-label" for="customCheck6">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck7">
+                                 <label class="custom-control-label" for="customCheck7">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck8">
+                                 <label class="custom-control-label" for="customCheck8">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck9">
+                                 <label class="custom-control-label" for="customCheck9">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck10">
+                                 <label class="custom-control-label" for="customCheck10">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                           </div>
                         </div>
-                    </div>
-                </div>
-                <div class="tab-pane" id="deadfish" role="tabpanel" aria-labelledby="settings-tab">
-                    <div class="py-3">
-                        <div class="row">
-                            <div class="col-md-4">
-                                    <div class="p-2">
-                                            <B> Overall Rating for Facilities</B> (1-lowest, 5-highest) 
-                                        </div>
-                                <div class="py-2">
-                                    <!-- code of star -->
-                                    <div class="star-rating">
-                                            <span class="fa fa-star-o" data-rating="21"></span>
-                                            <span class="fa fa-star-o" data-rating="22"></span>
-                                            <span class="fa fa-star-o" data-rating="23"></span>
-                                            <span class="fa fa-star-o" data-rating="24"></span>
-                                            <span class="fa fa-star-o" data-rating="25"></span>
-                                            <input type="hidden" name="rating5" class="rating-value" value="4.1">
-                                          </div>
-                                </div>
-                                <div class="pt-3">
-                                        <B> Share your reasons for selecting the mascot</B> 
-                                        <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck21">
-                                        <label class="custom-control-label" for="customCheck21">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck22">
-                                        <label class="custom-control-label" for="customCheck22">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck23">
-                                        <label class="custom-control-label" for="customCheck23">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck24">
-                                        <label class="custom-control-label" for="customCheck24">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck25">
-                                        <label class="custom-control-label" for="customCheck25">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col-md-4">
-                                <strong>
-                                        Any more reasons?
-                                </strong>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <strong>
-                                        Suggestions
-                                </strong>
-                                <div class="py-2">
-                                    <textarea name="" id="" cols="20" rows="8" class="w-100"></textarea>
-                                </div>
-                            </div>
+                        <div class="col-md-4">
+                           <strong>
+                           Any more reasons?
+                           </strong>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
                         </div>
-                    </div>
-                </div>
-                <div class="tab-pane" id="goose" role="tabpanel" aria-labelledby="settings-tab">
-                    <div class="py-3">
-                        <div class="row">
-                            <div class="col-md-4">
-                                    <div class="p-2">
-                                            <B> Overall Rating for Facilities</B> (1-lowest, 5-highest) 
-                                        </div>
-                                <div class="py-2">
-                                    <!-- code of star -->
-                                    <div class="star-rating">
-                                            <span class="fa fa-star-o" data-rating="26"></span>
-                                            <span class="fa fa-star-o" data-rating="27"></span>
-                                            <span class="fa fa-star-o" data-rating="28"></span>
-                                            <span class="fa fa-star-o" data-rating="29"></span>
-                                            <span class="fa fa-star-o" data-rating="30"></span>
-                                            <input type="hidden" name="rating6" class="rating-value" value="4.1">
-                                          </div>
-                                </div>
-                                <div class="pt-3">
-                                        <B> Share your reasons for selecting the mascot</B> 
-                                        <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck26">
-                                        <label class="custom-control-label" for="customCheck26">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck27">
-                                        <label class="custom-control-label" for="customCheck27">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck28">
-                                        <label class="custom-control-label" for="customCheck28">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck29">
-                                        <label class="custom-control-label" for="customCheck29">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck30">
-                                        <label class="custom-control-label" for="customCheck30">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                           </label>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col-md-4">
-                                <strong>
-                                        Any more reasons?
-
-                                </strong>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                                <div class="py-2">
-                                    <input type="text" class="textfeild w-100">
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <strong>
-                                        Suggestions
-                                </strong>
-                                <div class="py-2">
-                                    <textarea name="" id="" cols="20" rows="8" class="w-100"></textarea>
-                                </div>
-                            </div>
+                        <div class="col-md-4">
+                           <strong>
+                           Suggestions
+                           </strong>
+                           <div class="py-2">
+                              <textarea name="" id="" cols="20" rows="8" class="w-100"></textarea>
+                           </div>
                         </div>
-                    </div>
-                </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="tab-pane" id="whale" role="tabpanel" aria-labelledby="messages-tab">
+                  <div class="py-3">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="p-2">
+                              <B> Overall Rating for Facilities</B> (1-lowest, 5-highest) 
+                           </div>
+                           <div class="py-2">
+                              <!-- code of star -->
+                              <div class="star-rating">
+                                 <span class="fa fa-star-o" data-rating="11"></span>
+                                 <span class="fa fa-star-o" data-rating="12"></span>
+                                 <span class="fa fa-star-o" data-rating="13"></span>
+                                 <span class="fa fa-star-o" data-rating="14"></span>
+                                 <span class="fa fa-star-o" data-rating="15"></span>
+                                 <input type="hidden" name="rating3" class="rating-value" value="4.1">
+                              </div>
+                           </div>
+                           <div class="pt-3">
+                              <B> Share your reasons for selecting the mascot</B> 
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck11">
+                                 <label class="custom-control-label" for="customCheck11">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck12">
+                                 <label class="custom-control-label" for="customCheck12">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck13">
+                                 <label class="custom-control-label" for="customCheck13">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck14">
+                                 <label class="custom-control-label" for="customCheck14">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck15">
+                                 <label class="custom-control-label" for="customCheck15">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <strong>
+                           Any more reasons?
+                           </strong>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <strong>
+                           Suggestions
+                           </strong>
+                           <div class="py-2">
+                              <textarea name="" id="" cols="20" rows="8" class="w-100"></textarea>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="tab-pane" id="elephant" role="tabpanel" aria-labelledby="settings-tab">
+                  <div class="py-3">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="p-2">
+                              <B> Overall Rating for Facilities</B> (1-lowest, 5-highest) 
+                           </div>
+                           <div class="py-2">
+                              <!-- code of star -->
+                              <div class="star-rating">
+                                 <span class="fa fa-star-o" data-rating="16"></span>
+                                 <span class="fa fa-star-o" data-rating="17"></span>
+                                 <span class="fa fa-star-o" data-rating="18"></span>
+                                 <span class="fa fa-star-o" data-rating="19"></span>
+                                 <span class="fa fa-star-o" data-rating="20"></span>
+                                 <input type="hidden" name="rating4" class="rating-value" value="4.1">
+                              </div>
+                           </div>
+                           <div class="pt-3">
+                              <B> Share your reasons for selecting the mascot</B> 
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck16">
+                                 <label class="custom-control-label" for="customCheck16">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck17">
+                                 <label class="custom-control-label" for="customCheck17">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck18">
+                                 <label class="custom-control-label" for="customCheck18">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck19">
+                                 <label class="custom-control-label" for="customCheck19">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck20">
+                                 <label class="custom-control-label" for="customCheck20">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <strong>
+                           Any more reasons?
+                           </strong>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <strong>
+                           Suggestions
+                           </strong>
+                           <div class="py-2">
+                              <textarea name="" id="" cols="20" rows="8" class="w-100"></textarea>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="tab-pane" id="deadfish" role="tabpanel" aria-labelledby="settings-tab">
+                  <div class="py-3">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="p-2">
+                              <B> Overall Rating for Facilities</B> (1-lowest, 5-highest) 
+                           </div>
+                           <div class="py-2">
+                              <!-- code of star -->
+                              <div class="star-rating">
+                                 <span class="fa fa-star-o" data-rating="21"></span>
+                                 <span class="fa fa-star-o" data-rating="22"></span>
+                                 <span class="fa fa-star-o" data-rating="23"></span>
+                                 <span class="fa fa-star-o" data-rating="24"></span>
+                                 <span class="fa fa-star-o" data-rating="25"></span>
+                                 <input type="hidden" name="rating5" class="rating-value" value="4.1">
+                              </div>
+                           </div>
+                           <div class="pt-3">
+                              <B> Share your reasons for selecting the mascot</B> 
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck21">
+                                 <label class="custom-control-label" for="customCheck21">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck22">
+                                 <label class="custom-control-label" for="customCheck22">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck23">
+                                 <label class="custom-control-label" for="customCheck23">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck24">
+                                 <label class="custom-control-label" for="customCheck24">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck25">
+                                 <label class="custom-control-label" for="customCheck25">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <strong>
+                           Any more reasons?
+                           </strong>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <strong>
+                           Suggestions
+                           </strong>
+                           <div class="py-2">
+                              <textarea name="" id="" cols="20" rows="8" class="w-100"></textarea>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="tab-pane" id="goose" role="tabpanel" aria-labelledby="settings-tab">
+                  <div class="py-3">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="p-2">
+                              <B> Overall Rating for Facilities</B> (1-lowest, 5-highest) 
+                           </div>
+                           <div class="py-2">
+                              <!-- code of star -->
+                              <div class="star-rating">
+                                 <span class="fa fa-star-o" data-rating="26"></span>
+                                 <span class="fa fa-star-o" data-rating="27"></span>
+                                 <span class="fa fa-star-o" data-rating="28"></span>
+                                 <span class="fa fa-star-o" data-rating="29"></span>
+                                 <span class="fa fa-star-o" data-rating="30"></span>
+                                 <input type="hidden" name="rating6" class="rating-value" value="4.1">
+                              </div>
+                           </div>
+                           <div class="pt-3">
+                              <B> Share your reasons for selecting the mascot</B> 
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck26">
+                                 <label class="custom-control-label" for="customCheck26">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck27">
+                                 <label class="custom-control-label" for="customCheck27">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck28">
+                                 <label class="custom-control-label" for="customCheck28">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck29">
+                                 <label class="custom-control-label" for="customCheck29">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                              <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck30">
+                                 <label class="custom-control-label" for="customCheck30">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                 </label>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <strong>
+                           Any more reasons?
+                           </strong>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                           <div class="py-2">
+                              <input type="text" class="textfeild w-100">
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <strong>
+                           Suggestions
+                           </strong>
+                           <div class="py-2">
+                              <textarea name="" id="" cols="20" rows="8" class="w-100"></textarea>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </section>
-
-</body>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
-
-<script  src="script/startScript.js"></script>
-
-
+         </div>
+      </section>
+   </body>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+   <script  src="script/startScript.js"></script>
 </html>
