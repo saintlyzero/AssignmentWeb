@@ -108,6 +108,11 @@ header {
 	outline: 0;
 	background: 0 0
 }
+.redText{
+	display: inline-block;
+	color: red;
+	font-weight: 400
+}
 
 .nav-tabs .nav-link {
 	opacity: .3;
